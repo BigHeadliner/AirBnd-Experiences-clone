@@ -1,10 +1,10 @@
 import React from "react"   
-import Logo from "../images/airbnb-logo.png"
+
  
 export default function Navnar() { 
      return ( 
          <nav> 
-             <img className="nav--logo" src={Logo} />
+             <img className="nav--logo" src="/images/airbnb-logo.png" />
          </nav> 
      )
 }
